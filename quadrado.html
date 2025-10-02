@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<title>Cartão de citação</title>
+<style>
+  :root{
+    --bg: #0f172a;         /* fundo da página (azul bem escuro) */
+    --card: #0b1224;       /* fundo do cartão */
+    --text: #e5e7eb;       /* texto principal */
+    --muted: #94a3b8;      /* texto secundário */
+    --accent: #4f9cff;     /* barra vertical */
+    --radius: 16px;
+  }
+
+  html,body{
+    height:100%;
+    margin:0;
+    background: radial-gradient(1200px 500px at 50% -200px, #0b1635 0, var(--bg) 60%);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
+  }
+
+  /* Centro horizontal e dá respiro sem flex/grid */
+  .wrap{
+    max-width: 720px;
+    margin: 64px auto;
+    padding: 0 16px;
+  }
+
+  .card{
+    position: relative;
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.04);
+    padding: 28px 28px 32px 56px;   /* espaço para a barra à esquerda */
+    border: 1px solid rgba(255,255,255,.06);
+  }
+
+  /* Barra vertical */
+  .card::before{
+    content:"";
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    bottom: 24px;
+    width: 6px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #73b5ff, var(--accent));
+  }
+
+  blockquote{
+    margin: 0 0 18px 0;
+    font-size: clamp(18px, 2.6vw, 28px);
+    line-height: 1.4;
+    font-weight: 600;
+  }
+  blockquote::before, blockquote::after{
+    content: "“";
+    font-weight: 700;
+    opacity: .9;
+  }
+  blockquote::after{ content: "”"; }
+
+  cite{
+    display: block;           /* para quebrar linha sem flex */
+    font-style: normal;
+    color: var(--muted);
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <blockquote>
+        Atenção ao detalhe e foco no utilizador de ponta a ponta.
+      </blockquote>
+      <cite>— Nome, Função @ Empresa</cite>
+    </div>
+  </div>
+</body>
+</html>

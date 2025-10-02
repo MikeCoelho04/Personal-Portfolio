@@ -1,0 +1,151 @@
+* {
+  background-color: #F4F4F4;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styles */
+
+/* Header Styles */
+        /* Black-bar Styles */
+
+.black-bar {
+  background-color: #192112;
+  text-align: center;
+}
+
+.black-bar ul {
+  display: inline-block;
+  background-color: #192112;
+}
+
+.black-bar ul li {
+  color: #f3f7ee;
+  display: inline-block;
+  background-color: #192112;
+  padding: 9px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.left-bar-content {
+  text-align: left;
+  margin-right: 480px;
+}
+.right-bar-content {
+  margin-left: 480px;
+}
+
+        /* Title Styles */
+
+#title {
+  background-color: #e5edda;
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 10px;
+}
+
+        /* Nav Styles */
+
+nav {
+  background-color: #58753b;
+  height:40px;
+  text-align: center;
+}
+
+nav p {
+  display: inline-block;
+  background-color: #58753b;
+  color: #f3f7ee;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  margin-left: 40px;
+}
+
+/* Main Styles */
+
+      /* About me article styles */
+
+#about-me {
+  margin: 20px 20px;
+  background-color: #cdddb9;
+  border: 4px solid #192112;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#about-me p, #about-me h2 {
+  background-color: #cdddb9;
+  color: #192112;
+}
+
+#about-me p {
+  margin-top: 10px;
+}
+
+        /* Experiences Section */
+
+#experiences {
+  background-color: #39492b;
+  border-radius: 10px;
+  border: 4px solid #cdddb9;
+  padding: 20px;
+  margin: 20px 20px;
+}
+
+#experiences h2, #experiences h3, #experiences ul, #experiences li {
+  background-color: #39492b;
+  color: #cdddb9;
+}
+
+#experiences h3 {
+  margin: 20px 0;
+}
+
+#experiences li {
+  margin-left: 40px;
+}
+
+      /* Projects article */
+
+#projects {
+  background-color: #cdddb9;
+  border: 4px solid #39492b;
+  border-radius: 10px;
+  margin: 20px 20px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#projects div {
+  background-color: #39492b;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  color: #cdddb9;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+#projects p, #projects span {
+  background-color: transparent;
+  color: #cdddb9;
+  padding: 20px;
+}
+
+#projects p {
+  font-size: 30px;
+}
+
+#projects span {
+  margin-top: 30px;
+  font-size: 20px;
+}

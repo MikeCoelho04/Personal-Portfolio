@@ -1,0 +1,582 @@
+        /* GENERAL STYLES */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #00573a, #1e7b5c);
+  text-align: center;
+}
+
+/* TO OFFSET THE FIXED HEADER */
+
+main {
+  margin-top: 179px;
+}
+
+/* MULTIPLE STYLES */
+
+h2 {
+  font-size: 36px;
+}
+
+.subtitle {
+  color: lightgray;
+  text-transform: uppercase;
+}
+
+.deafult-global-container-size {
+  color: white;
+  width: 1080px;
+  margin: 100px 0 100px 320px;
+  box-sizing: border-box;
+}
+
+.buttons-style-3 {
+  font-size: 17px;
+  border: none;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 25px;
+  transition: 1s ease;
+}
+
+.see-projects-button {
+  background-color: rgb(101, 204, 230);
+  margin-right: 15px;
+}
+
+.see-projects-button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,2,0.4);
+  transform: translateY(-2px);
+}
+
+.button-style-4 {
+  background-color: transparent;
+  border: 0.1px solid lightgray;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgba(211, 211, 211, 0.4);
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 25px;
+  transition: 1s ease;
+}
+
+.button-style-4:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,2,0.4);
+  transform: translateY(-2px);
+}
+
+.conatiners-subtitle {
+  font-size: 36px;
+  margin-bottom: 45px;
+}
+
+        /* HEADER STYLES */
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: rgb(4, 143, 97);
+  border: 5px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+header div {
+  display: inline-block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+header .logo {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+header ul {
+  padding: 0;
+}
+
+header ul li {
+  color: lightgray;
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+header ul li a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.download-cv-button {
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid white;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: transparent;
+}
+
+.download-cv-button:hover {
+  background-color: white;
+  color: rgb(4, 143, 97);
+  transition: 1s;
+  border-color: rgb(4, 143, 97);
+  cursor: pointer;
+}
+
+.download-cv-button:active {
+  background-color: rgb(255, 255, 255, 0.6);
+  transition: 0.5s;
+}
+
+.leftside {
+  margin-right: 150px;
+}
+
+.rightside {
+  margin-left: 170px;
+}
+
+            /* MAIN STYLES */
+
+/* FIRST ARTICLE */
+
+article div {
+  display: inline-block;
+  width: 426px;
+  height: 485.8px;
+  vertical-align: top;
+}
+
+article .text-container {
+  text-align: left;
+  margin-right: 50px;
+  width: 600px;
+}
+
+article .text-container h1 {
+  font-size: 45px;
+  width: 450px;
+}
+
+article .text-container .description {
+  width: 450px;
+  font-size: 20px;
+}
+
+article .margin {
+  margin-top: 0;
+  display: inline;
+}
+
+article ul {
+  display: inline-block;
+  padding: 0;
+}
+
+article ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+article ul li button {
+  border: 0.1px solid lightgray;
+  color: lightgray;
+  font-size: 12px;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin-left: 15px;
+}
+
+.image {
+  background-image: url("/images/conding-image.jpg");
+  border-radius: 15px;
+}
+
+article a {
+  text-decoration: none;
+  color: white
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+  margin: 100px 0;
+  color: white;
+}
+
+#projects .secondary-text {
+  margin-right: 995px;
+}
+
+#projects h2 {
+  display: inline-block;
+  margin-right: 670px;
+}
+
+.projects-filter-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(4, 143, 97);
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+#projects .mains-projects {
+  height: 455px;
+  width: 1080px;
+  margin-left: 320px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+#projects .main-project {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 670px;
+  height: 100%;
+  border: 1px solid rgb(154, 153, 153);
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.1);
+}
+
+.project-description {
+  padding: 0 15px;
+}
+
+.main-project img {
+  width: 100%;
+  height: 253px;
+  border-radius: 14px 14px 0 0;
+}
+
+#projects h4 {
+  font-size: 20px;
+}
+
+.main-project h4 {
+  display: inline-block;
+}
+
+.second-project {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 24px;
+  vertical-align: top;
+  border: 1px solid rgb(154, 153, 153);
+  border-radius: 15px;
+  height: 100%;
+  width: 382px;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.1);
+}
+
+.second-project img {
+  height: 253px;
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+
+.secundary-projects {
+  width: 670px;
+  height: 400px;
+  margin-left: 320px;
+  margin-top: 24px;
+  border-radius: 15px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.small-container {
+  width: 320px;
+  height: 100%;
+  border: 1px solid rgb(154, 153, 153);
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.1);
+}
+
+.right-small-container {
+  margin-left: 24px;
+}
+
+.small-container img {
+  height: 200px;
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+
+.margin-left {
+  margin-left: 15px;
+}
+
+/* ABOUT ME */
+
+#about-me {
+  height: 255px;
+}
+
+#about-me .right {
+  margin-left: 24px;
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  border-radius: 15px;
+  padding: 15px 15px;
+}
+
+#about-me .container {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 526px;
+  height: 100%;
+  vertical-align: top;
+  text-align: left;
+}
+
+#about-me h2 {
+  font-size: 36px;
+  color: white;
+}
+
+.container .metric {
+  display: inline-block;
+}
+
+#metrics p {
+  color: lightgray;
+  font-size: 17px;
+}
+
+.container div span {
+  color: white;
+  font-size: 50px;
+}
+
+.container div {
+  box-sizing: border-box;
+  vertical-align: center;
+  margin-top: 35px;
+}
+
+.container div p {
+  width: 100px;
+  margin-left: 38px;
+}
+
+/* EXPERIENCE STYLES */
+
+#experience {
+  color: white;
+  text-align: left;
+}
+
+.experience-card p {
+  padding: 0;
+  margin: 0;
+  color: lightgray;
+}
+
+.experience-card span {
+  color: white;
+}
+
+.experience-card {
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  height: 70px;
+  margin-top: 20px;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+.experience-card div {
+  display: inline-block;
+}
+
+.experience-card .left-side {
+  margin-right: 30px;
+  width: 100px;
+}
+
+.paragraphs {
+  margin-top: 10px;
+}
+
+.middle {
+  margin-top: 15px;
+}
+
+/* FEEDBACK STYLES */
+
+#feedback {
+  color: white;
+  text-align: left;
+  vertical-align: center;
+}
+
+.feedback-container {
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  border-radius: 20px;
+  width: 302px;
+  height: 150px;
+  padding: 20px;
+  display: inline-block;
+}
+
+.light {
+  display: inline-block;
+  width: 5px;
+  height: 100%;
+  background-color: rgb(101, 204, 230);
+}
+
+.feedback-container p, .feedback-container span {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+  bottom: 165px;
+  font-size: 20px;
+}
+
+.feedback-container span {
+  margin-top: 20px;
+}
+
+#feedback .left {
+  margin-left: 20px;
+}
+
+/* TALK STYLES */
+
+#talk {
+  width: 1080px;
+  margin: -140px 0 100px 320px;
+  box-sizing: border-box;
+  color: white;
+  text-align: left;
+  vertical-align: center;
+}
+
+.social .subtitle {
+  margin: 0;
+}
+
+#talk form {
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  border-radius: 15px;
+  display: inline-block;
+  padding: 20px 20px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+#talk form div label {
+  display: block;
+}
+
+#talk form input {
+  background-color: transparent;
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  border-radius: 15px;
+  width: 250px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+#talk form input::placeholder {
+  color: white;
+}
+
+#talk form div {
+  display: inline-block;
+}
+
+#talk form textarea {
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  border-radius: 15px;
+  background-color: transparent;
+  margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
+
+#talk form button {
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: rgb(101, 204, 230);
+  width: 20%;
+  transition: 1s;
+}
+
+#talk form button:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,2,0.4);
+  transform: translateY(-2px);
+}
+
+.social {
+  box-sizing: border-box;
+  height: 100%;
+  width: 42%;
+  display: inline-block;
+  padding: 20px 20px;
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  border-radius: 15px;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+.social button {
+  text-align: left;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  border: 1px solid rgb(211, 211, 211, 0.4);
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: 1s;
+}
+
+.social button:hover {
+  transform: translateY(-2px);
+}
+
+#talk a {
+  text-decoration: none;
+  color: white;
+}
+
+/* RIGHTS STYLES */
+
+body .rights {
+  width: 1080px;
+  margin: 30px 0 30px 320px;
+  box-sizing: border-box;
+  color: white;
+  text-align: left;
+  vertical-align: center;
+}
